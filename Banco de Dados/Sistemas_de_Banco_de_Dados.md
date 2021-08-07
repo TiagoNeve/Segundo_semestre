@@ -84,4 +84,52 @@
     São chamados dessa maneira pois o método de busca dos dados
     eram do tipo de navegação, esses sistemas iam de registro em 
     registro comparando as informações com os dados solicitados.
+    IDS -> Usa o sistema de Grafos ou Redes, Network databases
+    IMS -> Usa o sistema de Árvores, Hierarchical databases
+    Na evolução desses sistemas foram desenvolvidos os SGBD's 
+    DMS (Data Management System) e o IDMS (Integrated Database Management System).
+    ### O modelo relacional de banco de dados
+    Pensado por um matemático pesquisador da IBM, Edgar Codd, em 
+    que gera uma relação entre diversos bancos de dados, evitando
+    uma super aglomeração de informações em um único banco, assim
+    se um banco se relacionar com outro, se comunicando, é possível
+    organizar melhor as informações e não gerará tanto impacto no
+    desempenho de buscas. Com essa ideia, a IBM patrocionou o 
+    projeto System R (Relational) e com isso foi desenvolvido o 
+    modelo de banco de dados mais utilizado atualmente.
+    ### Principais SGBDs relacionais
+    O projeto System R deu origem ao SGBD comercial da IBM
+    inicialmente denominado SQL/DS (Structured Query Language / Data System), depois renomeado de DB2. A IBM criou a linguagem
+    SQL, usada por vários Bancos de dados e modificadas para 
+    algumas outros bancos de dados. No decorrer dos anos houveram
+    muitos nomes associados a esse sistema de banco de dados, mas
+    o que perdurou foi o Oracle Corporation, um dos maiores SGBD
+    usado comercialmente. Além de ter adquirido a Sun Microsystems
+    e ter tomado o controle do MySQL, um dos maiores SGBDs de
+    software livre e usado amplamente pela comunidade.
+    Houve vários outros pesquisadores que tomaram a ideia de SGBD
+    relacionais, como por exemplo o projeto Ingres que mais tarde
+    gerou o SQL Server da Microsoft.
+    Além do SQL Server o projeto Ingres também teve um público
+    voltado a comunidade, com o desenvolvimento do SGBD Postgress,
+    que tem como base o modelo relacional e com conceitos de
+    programação orientada a objetos. Conhecido atualmente como 
+    PostgreSQL.
+    ### Outros modelos de SGBDs
+    Tais SGBDs possum muitos recursos além do Relacional. 
+    Oracle: Relacional e multimodelo (Documentos, grafos e RDF)
+    MySQL: Relacional e multimodelo (Documentos)
+    SQL Server: Relacional e multimodelo (Documentos e grafos)
+    PostgreSQL: Relacional e multimodelo (Documentos)
+    IBM DB2: Relacional e multimodel (RDF)
+    Mesmo com toda essa tecnologia de banco de dados Relacionais 
+    em algum momento não será possivel dar conta de alguns sistemas
+    como é o caso de aplicações robustas de cunho científico, que
+    utiliza a tecnologia de Big Data, Internet of Things e Data
+    Science, para esses sistemas em que ocorre muita manipulação de
+    dados em pouco período de tempo é necessário utilizar um novo
+    tipo de Banco de dados, chamado de NoSQL. São bancos de dados
+    que não tem como linguagem principal o SQL, mas podem também
+    utilizar para manipulações básicas, sempre recomendado para 
+    sistemas que irão tratar muitos dados em pouco tempo.
     
